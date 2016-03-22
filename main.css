@@ -1,0 +1,143 @@
+html
+{
+    background-color: #ecf0f1;
+    font-family: sans-serif;
+    
+}
+
+h3:hover
+{
+    color: blue;
+}
+h1
+{
+    font-size: 42px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 5px;
+}
+
+
+.About
+{
+    background: #ffffff;
+    border: 2px solid rgba(24, 126, 114, 0.3);
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+    min-width: 300px;
+    border-radius: 15px;
+    height: 215px;
+    float: left;
+}
+.follow
+{
+    margin-left: 600px;
+    width: 208px;
+    font-size: 12px;
+}
+.color:hover
+{
+    color:red;
+}
+footer
+{
+    text-align: center;
+    min-width: 100%;
+    padding-top: 15px;
+}
+.Container
+{
+    max-width: 1200px;
+    min-width: 1200px;
+    height: 480px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.Personal
+{
+    background: #ffffff;
+    border: 2px solid rgba(24, 126, 114, 0.3);
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+    min-width: 300px;
+    border-radius: 15px;
+    height: 215px;
+    float: left;
+}
+.Copy
+{
+    margin-top: 10px;
+    float: left;
+    margin-left: 100px;
+}
+.nav 
+{
+  text-align: right;
+}
+
+
+.personalDiv
+{
+    background-color: #ffffff;
+    margin-top: 60px;
+    max-width: 720px;
+    padding: 30px;
+    padding-top: 70px;
+    height: 280px;
+    margin-left: 200px;
+}
+.Link
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    float: right;
+    text-transform: uppercase;
+}
+.home
+{
+    text-align: center;
+    margin-left: 70px;
+    width: 150px;
+    height: 160px;
+}
+.h3Home
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.UL
+{
+    min-width: 1050px;
+    max-width: 1050px;
+}
+.Welcome
+{
+    margin-top: 20px;
+    float: left;
+    margin-left: 360px;
+    width: 700px;
+}
+.FooterUL
+{
+    min-width: 900px;
+    max-width: 950px;
+}
+
+.link1
+{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    float: right;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.FooterUL li:hover
+{
+    color: blue;
+}
