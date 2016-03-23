@@ -259,3 +259,7 @@ footer
     max-width: 1270px;
     min-width: 1270px;
 }
+a
+{
+    text-decoration: none;
+}
