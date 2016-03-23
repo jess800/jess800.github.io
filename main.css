@@ -4,6 +4,10 @@ html
     font-family: sans-serif;
     
 }
+body
+{
+    margin: 0px;
+}
 
 h3:hover
 {
@@ -24,18 +28,41 @@ h1
     background: #ffffff;
     border: 2px solid rgba(24, 126, 114, 0.3);
     padding-top: 20px;
-    margin-left: 30px;
+    margin-left: 100px;
     padding-left: 10px;
-    min-width: 300px;
+    min-width: 200px;
     border-radius: 15px;
-    height: 215px;
+    height: 150px;
     float: left;
+    text-align: center;
+}
+
+.Contact
+{
+    background: #ffffff;
+    border: 2px solid rgba(24, 126, 114, 0.3);
+    padding-top: 20px;
+    margin-left: 100px;
+    padding-left: 10px;
+    min-width: 200px;
+    border-radius: 15px;
+    height: 150px;
+    float: left;
+    text-align: center;
+
+}
+.ContactImage
+{
+    width: 100px;
+    height: 100px;
+    
 }
 .follow
 {
-    margin-left: 600px;
+    margin-left: 560px;
     width: 208px;
     font-size: 12px;
+    list-style-type: none;
 }
 .color:hover
 {
@@ -43,6 +70,7 @@ h1
 }
 footer
 {
+    padding: 20px;
     text-align: center;
     min-width: 100%;
     padding-top: 15px;
@@ -51,7 +79,7 @@ footer
 {
     max-width: 1200px;
     min-width: 1200px;
-    height: 480px;
+    height: 580px;
     margin-left: 100px;
     margin-right: 100px;
     display: inline-block;
@@ -60,13 +88,15 @@ footer
 {
     background: #ffffff;
     border: 2px solid rgba(24, 126, 114, 0.3);
-    padding-top: 20px;
-    margin-left: 30px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-left: 255px;
     padding-left: 10px;
-    min-width: 300px;
+    min-width: 200px;
     border-radius: 15px;
-    height: 215px;
+    height: 150px;
     float: left;
+    text-align: center;
 }
 .Copy
 {
@@ -87,60 +117,68 @@ footer
     max-width: 720px;
     padding: 30px;
     padding-top: 70px;
-    height: 280px;
+    height: 380px;
     margin-left: 200px;
+    
 }
-.Link
-{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 10px;
-    float: right;
-    text-transform: uppercase;
-}
+
 .home
 {
     text-align: center;
-    margin-left: 70px;
-    width: 150px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
 }
 .h3Home
 {
     text-align: center;
     text-transform: uppercase;
 }
-.UL
-{
-    min-width: 1050px;
-    max-width: 1050px;
-}
+
 .Welcome
 {
     margin-top: 20px;
     float: left;
-    margin-left: 360px;
+    margin-left: 400px;
     width: 700px;
 }
-.FooterUL
-{
-    min-width: 900px;
-    max-width: 950px;
-}
 
-.link1
-{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 10px;
-    float: right;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-.FooterUL li:hover
-{
-    color: blue;
-}
 a{
     text-decoration: none;
+}
+.nav_class ul
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    color: white;
+    
+}
+.nav_class li
+{
+    display: inline;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.nav_class a
+{
+    display: block;
+    width: 60px;
+    padding: 14px;
+    color: white;
+    margin-right: 20px;
+}
+
+.nav_class a:hover
+{
+    background-color: rgba(43, 175, 109, 0.81);
+}
+.nav_class
+{
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(28, 98, 63, 0.81);
+    position:fixed; 
 }
